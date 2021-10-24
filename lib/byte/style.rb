@@ -1,5 +1,5 @@
 require 'byte/style/version'
-require 'rails/generators/base'
+require 'rails/generators'
 module Byte
   module Style
     class DevGenerator < Rails::Generators::Base
