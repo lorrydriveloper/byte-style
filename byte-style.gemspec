@@ -22,9 +22,9 @@ Gem::Specification.new do |spec|
   spec.add_dependency('rails', '~> 6.1.3')
 
   spec.add_dependency('rubocop', '~> 1.22', '>= 1.22.2')
-  spec.add_dependency('rubocop-performance', '~> 1.11', '>= 1.11.5')
+  # spec.add_dependency('rubocop-performance', '~> 1.11', '>= 1.11.5')
   spec.add_dependency('rubocop-rails', '~> 2.12', '>= 2.12.4')
-  spec.add_dependency('rubocop-rspec', '~> 2.5')
+  # spec.add_dependency('rubocop-rspec', '~> 2.5')
   spec.add_development_dependency('bundler', '~> 2.2.25')
   spec.add_development_dependency('rake', '~> 13.0')
 end
