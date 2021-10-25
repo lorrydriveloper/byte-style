@@ -7,9 +7,14 @@
 # RuboCop will start looking for the configuration file in the directory
 # where the inspected file is and continue its way up to the root directory.
 #
+inherit_gem:
+  prettier: rubocop.yml
+
 
 require:
+  - rubocop-performance
   - rubocop-rails
+  - rubocop-rspec
 
 AllCops:
   TargetRubyVersion: 2.7
@@ -397,7 +402,6 @@ Style/StringConcatenation:
 # # ============== Misc ================
 Bundler/OrderedGems:
   Enabled: false
-
 
 ###########################################################
 #################### Rubocop Rails ########################

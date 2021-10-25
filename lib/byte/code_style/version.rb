@@ -1,5 +1,5 @@
 module Byte
-  module Style
+  module CodeStyle
     VERSION_PATH = 'lib/byte/style/version.yml'.freeze
     CURRENT_VERSION = if File.exist?(VERSION_PATH)
       File.read(VERSION_PATH).match('\d+.\d+.\d+').to_s
