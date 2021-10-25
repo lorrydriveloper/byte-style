@@ -8,7 +8,7 @@ module Byte
 
       def copy_initializer_file
         copy_file('.prettierrc.yml', '.prettierrc.yml')
-        copy_file('rubocop.yml', '.rubocop.yml')
+        copy_file('.rubocop.yml', '.rubocop.yml')
       end
     end
   end
