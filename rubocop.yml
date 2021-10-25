@@ -21,7 +21,6 @@ AllCops:
     - '**/Gemfile.lock'
     - '**/Rakefile'
     - '**/rails'
-    - '**/vendor/**/*'
     - '**/spec_helper.rb'
     - 'node_modules/**/*'
     - 'bin/*'
