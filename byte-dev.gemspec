@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(/^exe\//) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency('prettier', '~> 1.6.1')
+  spec.add_dependency('prettier', '~> 2.0.0.pre.rc4')
   spec.add_dependency('rubocop', '~> 1.22', '>= 1.22.2')
   spec.add_dependency('rubocop-performance', '~> 1.11', '>= 1.11.5')
   spec.add_dependency('rubocop-rails', '~> 2.12', '>= 2.12.4')
@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency('bundler', '~> 2.0')
   spec.add_development_dependency('rails', '~> 6.1.3')
-  spec.add_development_dependency('rake', '~> 12.3')
+  spec.add_development_dependency('rake', '~> 13.0')
 end
