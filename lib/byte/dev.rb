@@ -1,7 +1,7 @@
-require 'byte/code_style/version'
+require 'byte/dev/version'
 require 'rails/generators'
 module Byte
-  module CodeStyle
+  module Dev
     class InstallGenerator < Rails::Generators::Base
       desc 'This generator creates a style files for your project'
       source_root File.expand_path('config', __dir__)

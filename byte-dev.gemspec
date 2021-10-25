@@ -1,10 +1,10 @@
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'byte/code_style/version'
+require 'byte/dev/version'
 
 Gem::Specification.new do |spec|
-  spec.name        = 'byte-code-style'
-  spec.version     = Byte::CodeStyle::VERSION
+  spec.name        = 'byte-dev'
+  spec.version     = Byte::Dev::VERSION
   spec.authors     = ['Cogitor Ltd']
   spec.email       = ['support@superbyte.uk']
   spec.homepage    = 'https://superbyte.uk'
@@ -25,5 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency('rubocop-rails', '~> 2.12', '>= 2.12.4')
   spec.add_dependency('rubocop-rspec', '~> 2.5')
 
+  spec.add_development_dependency('bundler', '~> 2.0')
   spec.add_development_dependency('rails', '~> 6.1.3')
+  spec.add_development_dependency('rake', '~> 12.3')
 end
