@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'byte/dev/version'
 require 'rails/generators'
 module Byte
@@ -9,7 +11,7 @@ module Byte
       def copy_initializer_file
         copy_file('.prettierrc.yml', '.prettierrc.yml')
         copy_file('.rubocop.yml', '.rubocop.yml')
-        append_file('.gitignore', 'rubocop-*')
+        append_file('.gitignore', '.rubocop-*')
       end
     end
   end
